@@ -7,14 +7,6 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-def print_first_directors_movie_titles(directors_database)
-  i = 0 
-  while i < directors_database.length do
-    j = 0 
-    while j < directors_database[i].length do
-      p directors_database[i][j]
-    j += 1 
-    end
-  i += 1
-  end
+def print_first_directors_movie_titles
+  pp directors_database
 end

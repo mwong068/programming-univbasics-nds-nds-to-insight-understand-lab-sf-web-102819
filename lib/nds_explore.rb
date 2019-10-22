@@ -9,10 +9,12 @@ end
 
 def print_first_directors_movie_titles
   i = 0 
-  while i < nds[i].length do
+  while i < nds.length do
     j = 0 
-    while j < 
-    prints nds[i][j]
-  i += 1 
+    while j < nds[i].length do
+      prints nds[i][j]
+    j += 1 
+    end
+  i += 1
   end
 end
